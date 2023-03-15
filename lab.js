@@ -58,6 +58,20 @@ let rain = true;
 */
 
 //CODE HERE
+if(temperature > 80 && rain) {
+  console.log('Wear t-shirt and take umbrella')
+} else if(temperature > 60 && rain){
+  console.log('Wear a rain-jacket')  
+} else if(temperature < 60 && rain){
+  console.log('Wear a jacket and carry an umbrella')
+} else if(temperature > 80 && !rain){
+  console.log('Wear a t-shirt and shorts')
+} else if(temperature > 60 && !rain){
+  console.log('Might be a bit chilly today')
+} else {
+  console.log('It will be chilly wear a coat')
+}
+   
 
 ////////// PROBLEM 5 //////////
 
@@ -66,7 +80,9 @@ let rain = true;
 */
 
 //CODE HERE
-
+for (let i = 0; i <= 10; i++) {
+  console.log('Hello')
+}
 ////////// PROBLEM 6 //////////
 
 /*
@@ -75,6 +91,10 @@ let rain = true;
 
 //CODE HERE
 
+for (let i = 1; i <= 10; i++) {
+  console.log(i)
+}
+
 ////////// PROBLEM 7 //////////
 
 /*
@@ -82,7 +102,9 @@ let rain = true;
 */
 
 //CODE HERE
-
+for (let i = 10; i >= 0; i--) {
+  console.log(i)
+}
 
 ////////// PROBLEM 8 //////////
 
@@ -94,6 +116,7 @@ let passingScore = 7;
 */
 
 //CODE HERE
+
 
 ////////// INTERMEDIATE PROBLEMS //////////
 
